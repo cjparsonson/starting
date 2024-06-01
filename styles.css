@@ -1,0 +1,81 @@
+body {
+    margin: 0 5%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.colour-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.LightGreen {
+    background-color: #7BF1A8;
+    color: #000;
+}
+
+.IceBlue {
+    background-color: #90F1EF;
+    color: #000;
+}
+
+.MimiPink {
+    background-color: #FFD6E0;
+    color: #000;
+}
+
+.MedSlateBlue {
+    background-color: #736CED;
+    color: #fff;
+}
+
+.SpaceCadet {
+    background-color: #141B41;
+    color: #fff;
+}
+
+.typography-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+.nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.typography-heading {
+    text-decoration: underline;
+}
+
+.button {
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #ddd;
+    color: #000;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
